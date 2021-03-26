@@ -19,8 +19,8 @@
 body{
     
     min-height: 100vh;
-    background: #E5E5E5;
-    font-family:myFirstFont;
+    background: #fff;
+    font-family:light;
     
     font-weight: 400;
     font-size: 16px;
@@ -118,7 +118,7 @@ flex: 1;
 
 
 
-font-family: myFirstFont;
+font-family: light;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
@@ -172,7 +172,7 @@ color: #F6E3D8;
 /* left: 158px;
 top: 717px; */
 
-font-family: myFirstFont;
+font-family: light;
 font-style: normal;
 font-weight: 300;
 font-size: 4vh;
@@ -222,11 +222,12 @@ text-align: left;
     display: block;
     color: black;
 
-font-family:myFirstFont;
+font-family:light;
 font-style: normal;
 font-weight: 300;
 font-size: 5vh;
 line-height: 51px;
+
 
 text-align: center;
 
@@ -241,10 +242,10 @@ color: #000000;
     /* TESTIMONIALS */
 
 
-font-family: myFirstFont;
+font-family: light;
 font-style: normal;
 font-weight: 300;
-font-size: 3.7vh;
+font-size: 3.2vh;
 line-height: 32px;
 /* identical to box height */
 
@@ -267,7 +268,7 @@ color: #000000;
 .our-story-naslov{
     /* padding:5vh; */
     padding-bottom: 50px !important;
-    font-family: myFirstFont;
+    font-family: light;
 font-style: normal;
 font-weight: 300;
 font-size: 4vh;
@@ -281,7 +282,7 @@ color:#C9A482;
 }
 .our-story{
     display: block;
-    font-family: myFirstFont;
+    font-family: light;
 font-style: normal;
 font-weight: 100;
 font-size: 3.5vh;
@@ -297,10 +298,10 @@ color: #000000;
 
 .test-our{
 
-font-family: myFirstFont;
+font-family: light;
 font-style: normal;
 font-weight: 300;
-font-size: 3vh;
+font-size: 3.4vh;
 line-height: 32px;
 /* identical to box height */
 
