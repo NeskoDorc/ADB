@@ -454,11 +454,13 @@ font-family: myFirstFont;
 
 @media(max-width:767px) {
 
-    
+    #myHeader{
+        display: none;
+    }
 
 
     .nav {
-        display: none;
+       
     }
    
 
@@ -612,6 +614,7 @@ font-family: myFirstFont;
 height: 100%;
 
 }
+
 
 
 .pic1 {
