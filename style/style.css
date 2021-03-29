@@ -17,6 +17,7 @@
 
 }
 body{
+    max-width: 1440px;
     
     min-height: 100vh;
     background: #fff;
@@ -518,15 +519,54 @@ font-family: myFirstFont;
 
     font-size: 3.5vh;
 }
+.product-pic1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+height: 100%;
+
+}
 
 
 .pic1 {
     flex: 1;
-   
+    max-width:700px;
+    max-height:700px;
     border-radius:0;
-    width: 100%;
+    width: inherit;
     height: 100%;
     margin: 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+.pic2 {
+    flex: 1;
+    display: block;
+    max-width: 200px;
+  max-height:450px;
+  
+    border-radius:0;
+    
+        width: inherit;
+        
+   
+    height: 100%;
+    margin: 0;
+
+}
+.back__pic{
+width: 100%;
+height: 65vh;
+border-radius: 0;
+background-size: contain;
+background-repeat:no-repeat;
+background-position: bottom;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+
 
 }
 
@@ -619,7 +659,32 @@ padding-bottom: 7vh;
     color: #C9A482;
     padding-bottom: 2vh;
     }
+.butt{
+display: flex;
 
+padding-top: 1vh;
+
+
+
+}
+.butt button{
+    font-weight: 600;
+    padding: 1vh;
+    width: 13vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+  color: black;
+  border: 2px solid #F6E3D8; /* Green */
+
+  border-radius: 5px;
+
+
+}
+
+.butt button:hover{
+ 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 
 
