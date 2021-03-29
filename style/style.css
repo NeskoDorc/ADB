@@ -453,6 +453,76 @@ font-family: myFirstFont;
 }
 
 @media(max-width:767px) {
+
+    
+
+
+    .nav {
+        display: none;
+    }
+   
+
+    .header {
+        background-position: top;
+        height: 75vh !important;
+     
+    }
+
+    .heading-primary-main {
+       
+        font-size: 3vh  !important;
+        
+    }
+
+    .heading-primary-sub {
+        
+        font-size: 3vh !important;
+    }
+
+    .back__pic {
+        
+        height: 30vh !important;
+       
+    }
+
+    .pic1 {
+       box-shadow: none !important;
+        
+    }
+
+    .opis-proiz {
+        padding-bottom: 5vh;
+        
+    }
+
+
+    .butt button {
+        
+        width: 100% !important;
+      padding-bottom: 3vh;
+       
+    }
+
+
+    .opis-proiz p {
+        font-size: 3vh !important;
+    }
+
+
+    
+    .test-our{
+        font-size: 2.8vh;
+    }
+
+
+    .our-story{
+        font-size: 2vh;
+    }
+
+    .foo-1{padding-bottom: 4vh;}
+
+
+    
     .foo-2{
         flex: 1;
         align-items: center;
@@ -464,7 +534,22 @@ font-family: myFirstFont;
         
         font-size: 2vh;}
 
+
+        .foo-3 {
+            display: none;
+        }
+
     .footer{
+        
+           padding-top: 1vh;
+            height: 100%;
+            /* background-color: black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color: #fff; */
+            padding-bottom: 1vh;
        
         flex-direction: column;
       
